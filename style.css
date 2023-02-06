@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+padding: 0;  }
+
+body{
+    font-family:'Roboto Slab',serif;
+}
+
+.first-section{
+    background-color: #1F2937;
+  padding: 50px 0;
+}
+#header-logo{
+    font-size: 40px;
+    color:#3882f6;
+}
+.header-link{
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+a:hover{
+   color: #3882f6;
+   
+}
+a{ 
+    text-decoration: none;
+   color: white;
+}
+.navbar-left,.navbar-right{
+ display: flex;
+ width: 50%;
+ justify-content: center;
+ align-items: center;
+ text-decoration: none;
+     
+}
+.content{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+.content-left{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    width: 500px;
+    padding: 50px;} 
+
+  .second-section{
+    padding: 70px 0;
+  }  
+    
+.second-content{
+    font-size: 20px;
+    color: #E5E7EB;
+   padding: 10px;
+   font-weight: 300;
+   width: 350px;
+}
+button{
+    background:#3882f6;
+    font-weight: bold;
+    color: white;
+    padding: 10px 25px;
+border-radius: 5px;
+}
+
+.content-right img{
+    margin-left: 100px;
+height: 50vh;
+width: 50vh;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.for-image{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-around;
+}
+
+.ktm img,.ninja img,.r15 img,.harley img{
+    height: 25vh;
+    width: 25vh;
+}
+
+figcaption{
+    width: 25vh;
+}
+
+.third-section{
+    background-color: #E5E7EB;
+    padding: 50px 0;
+}
+
+.quote{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-weight:lighter;
+    width: 500px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0 auto;
+}
+
+.name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 240px;
+    padding-top: 5px;
+
+}
+
+.fourth-section{
+    background-color: #3882f6;
+    margin: 100px 250px;
+    padding: 50px;
+    color:white;
+    display: flex;
+    border-radius: 10px;
+    
+}
+.call-section{
+    color: #E5E7EB;
+    width: 500px;
+    font-size: 18px;
+
+}
+#cta{
+    padding-left: 100px;
+}
+.cta-heading{
+    font-weight: bold;
+    font-size: 30px; 
+    
+}
+.cta-button{
+    border: #F9FAF8 solid;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 150px;
+  background: none;
+  border-radius: 5px;
+  
+}
+.fifth-section{
+    background-color: #1F2937 ;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #E5E7EB;
+    font-size: 20px;
+}
